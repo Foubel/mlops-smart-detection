@@ -1,0 +1,31 @@
+# Core ML
+ultralytics
+mlflow
+
+# Data & Annotations
+picsellia
+pandas
+
+# Deployment
+bentoml
+
+# Computer Vision
+opencv-python
+Pillow
+numpy
+
+# Configuration
+python-dotenv
+PyYAML
+toml
+
+# Cloud & Storage
+boto3
+botocore
+
+# Database (for MLflow)
+pymysql
+
+# Testing
+pytest
+pytest-cov

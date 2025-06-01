@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.venv/
+data/
+*.pt
+runs/
+SMART_Pipeline*/
+.env
+.coverage
+htmlcov/
+.pytest_cache/
+*.log
+temp*/
