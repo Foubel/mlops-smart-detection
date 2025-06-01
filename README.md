@@ -13,8 +13,8 @@ Système de détection d'objets utilisant YOLO pour reconnaître automatiquement
 ### Installation des dépendances
 ```bash
 # Cloner le repository
-git clone https://github.com/votre-username/projet-smart.git
-cd projet-smart
+git clone https://github.com/Foubel/mlops-smart-detection.git
+cd mlops-smart-detection
 
 # Installer les dépendances
 pip install -r requirements.txt
@@ -77,7 +77,7 @@ pytest
 pytest --cov=src --cov-report=html
 
 # Test du service déployé
-python -c "import requests; print(requests.get('YOUR_BENTOML_URL/health').json())"
+python -c "import requests; print(requests.get('BENTOML_URL/health').json())"
 ```
 
 ## 🏷️ Classes Détectées (10 produits)
@@ -119,7 +119,7 @@ python -c "import requests; print(requests.get('YOUR_BENTOML_URL/health').json()
 ## 🚀 Déploiement et Démonstration
 
 ### Service BentoML Cloud
-- **URL** : [Votre URL BentoML Cloud]
+- **URL** : [URL BentoML Cloud]
 - **Endpoints** :
   - `GET /health` : Status du service
   - `POST /predict` : Prédiction sur image
@@ -142,5 +142,5 @@ python -c "import requests; print(requests.get('YOUR_BENTOML_URL/health').json()
 
 ---
 
-**🎓 Projet réalisé dans le cadre du CNAM - Université de Strasbourg**  
+**🎓 Projet réalisé dans le cadre du CNAM - Strasbourg**  
 **📚 Module : Intelligence Artificielle - MLOps**
