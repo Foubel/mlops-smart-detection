@@ -1,0 +1,13 @@
+[dataset]
+class_names = [
+    "Canette",
+    "Compote",
+    "Brownie",
+    "Twix",
+    "Kinder_cards",
+    "Sondey_carré",
+    "Barre_protéine",
+    "Mars",
+    "Oeuf",
+    "Lapin_pâques"
+]
