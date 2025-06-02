@@ -1,0 +1,18 @@
+service: "service:YOLOService"
+
+description: "Service BentoML pour la détection d'objets avec YOLO (Projet SMART)"
+
+include:
+  - "service.py"
+  - "deployed_model.pt"
+
+python:
+  requirements_txt: "./requirements-deploy.txt"
+
+docker:
+  system_packages:
+    - "libgl1-mesa-glx"
+    - "libglib2.0-0"
+    - "libsm6"
+    - "libxext6"
+    - "libxrender-dev"
